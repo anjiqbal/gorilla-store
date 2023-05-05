@@ -1,20 +1,17 @@
-import './App.css';
+import "./App.css";
 import { useEffect, useState } from "react";
 import getStoreData from "./storeData";
 
 function App() {
-
-  const [myStoreData, setMyStoreData] = useState(null)
+  const [myStoreData, setMyStoreData] = useState(null);
 
   useEffect(() => {
-
     const fetchMyStoreData = async () => {
       const data = await getStoreData();
-      setMyStoreData(data)
-    }
-    fetchMyStoreData();   
-  },[])
-  
+      setMyStoreData(data);
+    };
+    fetchMyStoreData();
+  }, []);
 
   return (
     <div className="App">

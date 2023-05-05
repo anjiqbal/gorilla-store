@@ -1,23 +1,29 @@
-.App{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2d0d0;
 }
 
-header{
-    border: 1px solid red;
-    width: 100%;
-    height: 9em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1em;
+header {
+  width: 100%;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  background-color: #c8a9ca;
 }
-main{
-    border: 1px solid green;
-    width: 70%;
-    height: 100vh;
 
+header > h1 {
+  font-size: 3em;
+  color: #ffffff;
+}
+
+main {
+  width: 70%;
+  height: 100vh;
+
+  background-color: #d2d0d0;
 }
