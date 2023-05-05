@@ -1,7 +1,8 @@
 import React from "react";
 import "./Card.css";
+import Rating from '@mui/material/Rating';
 
-function Card({ key, category, title, imageSrc, rating, price }) {
+function Card({ category, title, imageSrc, rating, price }) {
   return (
     <div className="card">
       <div className="card__category">
@@ -14,10 +15,10 @@ function Card({ key, category, title, imageSrc, rating, price }) {
         <h3>{title}</h3>
       </div>
       <div className="card__rating">
-        <p>{rating}</p>
+        <Rating name="half-rating" defaultValue={rating} precision={0.1} />
       </div>
       <div className="card__price">
-        <p>{price}</p>
+        <p>£{price}</p>
       </div>
     </div>
   );

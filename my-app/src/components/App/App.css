@@ -7,6 +7,7 @@
 }
 
 header {
+  position: relative;
   width: 100%;
   height: 9em;
   display: flex;
@@ -16,14 +17,30 @@ header {
   background-color: #6a555f;
 }
 
-header > h1 {
-  font-size: 3em;
+.MuiIconButton-root .App__header-shopping-cart {
+  font-size: 2.3em;
   color: #ffffff;
+}
+
+header > h1 {
+  font-size: 5em;
+  letter-spacing: .2em;
+  color: #ffffff;
+  margin-right: 15em;
+  margin-left: 16em;
+  transform: skewX(-20deg);
+}
+
+header>img{
+  position: absolute;
+  top: 2em;
+  right: 130em;
+  width: 8.5em;
+  border-radius: 50%;
 }
 
 main {
   width: 70%;
-  height: 100vh;
 
   background-color: #d2d0d0;
 }

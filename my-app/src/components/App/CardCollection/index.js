@@ -1,5 +1,6 @@
 import Card from "./Card";
 import "./CardCollection.css";
+import Rating from '@mui/material/Rating';
 
 function CardCollection({ myStoreData }) {
   return (
