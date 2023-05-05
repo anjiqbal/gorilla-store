@@ -18,6 +18,12 @@ function App() {
 
   return (
     <div className="App">
+      <header>
+        <h1>store page</h1>
+      </header>
+      <main>
+        <h2>main content</h2>
+      </main>
     </div>
   );
 }
