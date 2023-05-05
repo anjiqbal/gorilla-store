@@ -14,14 +14,14 @@ function App() {
     };
     fetchMyStoreData();
   }, []);
-
+  console.log(myStoreData);
   return (
     <div className="App">
       <header>
         <h1>store page</h1>
       </header>
       <main>
-        <CardCollection/>
+        <CardCollection myStoreData={myStoreData} />
       </main>
     </div>
   );
