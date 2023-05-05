@@ -1,10 +1,16 @@
 .card{
-    width: calc(33.33% - 10px);
+    width: calc(33.33% - 40px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    border: 1px solid rgb(106, 103, 103);
+    border-radius:25px ;
+    margin: 0.4em 0.2em;
+    background-image: linear-gradient(270deg,#737579,#554949);
+    box-shadow: 3px 3px 1px 1px #433f3f;
+    color: white;
+   
 }
 .card__image>img{
     width: 13em;
