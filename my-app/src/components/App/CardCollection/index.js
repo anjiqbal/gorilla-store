@@ -1,14 +1,13 @@
 import Card from "./Card";
 import "./CardCollection.css";
-import Rating from '@mui/material/Rating';
 
 function CardCollection({ myStoreData }) {
   return (
     <div className="card-collection">
-      {myStoreData &&
+      {myStoreData && // if myStoreData is truthy, then render the following:
         myStoreData.map((item) => {
-          return (
-            <Card
+          return ( 
+            <Card 
               key={item.id}
               category={item.category}
               title={item.title}

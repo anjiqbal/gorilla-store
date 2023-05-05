@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 import Rating from '@mui/material/Rating';
 
-function Card({ category, title, imageSrc, rating, price }) {
+function Card({ category, title, imageSrc, rating, price }) { // destructuring props
   return (
     <div className="card">
       <div className="card__category">
