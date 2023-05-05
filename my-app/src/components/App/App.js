@@ -1,6 +1,8 @@
 import "./App.css";
+import React from "react";
 import { useEffect, useState } from "react";
 import getStoreData from "./storeData";
+import CardCollection from "./CardCollection";
 
 function App() {
   const [myStoreData, setMyStoreData] = useState(null);
@@ -19,7 +21,7 @@ function App() {
         <h1>store page</h1>
       </header>
       <main>
-        <h2>main content</h2>
+        <CardCollection/>
       </main>
     </div>
   );
