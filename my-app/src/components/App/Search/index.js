@@ -18,7 +18,7 @@ function Search({ getSearchTerm }) {
   }
 
   return (
-    <div>
+    <div className="search-form">
       <form onSubmit={handleSubmit}>
         <input
           type="text"
