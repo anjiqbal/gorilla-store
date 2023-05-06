@@ -17,20 +17,3 @@
   height: 200px;
   border-radius: 12px;
 }
-
-.card__price>p{
-  border: 1px solid black;
-  padding: 13px;
-  border-radius: 70%;
-  background-color: #554949;
-  font-weight: 600;
-
-}
-
-.card__price>p:hover{
-  background-color: #483e3e;
-  transform: translateY(-4px);
-  padding: 13px;
-  font-weight: 800;
-  cursor: pointer;
-}
