@@ -34,7 +34,7 @@ function App() {
   function getSearchTerm(input) {
     setSearchTerm(input);
   }
-  console.log(searchTerm);
+
   return (
     <div className="App">
       <header>
